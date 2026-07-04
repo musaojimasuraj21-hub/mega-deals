@@ -118,3 +118,45 @@ footer{
     display: block;
     margin-bottom: 15px;
 }
+/* Navigation */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+}
+
+.logo span{
+    font-size:28px;
+    font-weight:bold;
+    color:#22c55e;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#22c55e;
+}
