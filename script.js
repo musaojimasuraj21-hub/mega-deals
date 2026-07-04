@@ -12,3 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}.card .button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+}
