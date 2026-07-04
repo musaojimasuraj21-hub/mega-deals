@@ -58,15 +58,15 @@ nav a:hover{
 
 /* ===== HERO ===== */
 
-.hero{
-    background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-                url("fitness.jpg") center center/cover no-repeat;
-    height:90vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    color:white;
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+                url("fitness.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 }
 }
 
