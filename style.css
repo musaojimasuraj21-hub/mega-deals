@@ -161,3 +161,20 @@ nav a{
 nav a:hover{
     color:#22c55e;
 }
+.logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.logo h1{
+    color:white;
+    margin:0;
+}
